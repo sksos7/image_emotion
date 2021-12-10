@@ -1,4 +1,5 @@
 import os
+import sys
 
 import cv2
 import numpy as np
@@ -16,7 +17,8 @@ eye_cascade = cv2.CascadeClassifier('src/haarcascade_eye.xml')
 face_cascade = cv2.CascadeClassifier('src/haarcascade_frontalface_default.xml')
 
 # 예측할 이미지 파일 경로
-img_file_path = 'Predict_img/001.jpg'
+input_argv = sys.argv[1]
+img_file_path = 'Predict_img/' + input_argv
 
 # 이미지 불러오기 한글 경로 깨짐
 img_array = np.fromfile(img_file_path, np.uint8)
