@@ -31,3 +31,4 @@ pip install -r requirements.txt
 python src/Predict.py <이미지 파일 이름.확장자>
 ~~~
 
+add
