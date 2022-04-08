@@ -31,4 +31,12 @@ pip install -r requirements.txt
 python src/Predict.py <이미지 파일 이름.확장자>
 ~~~
 
-Updating...
+---
+
+
+결과
+---
+![002](https://user-images.githubusercontent.com/41771983/162376107-ef0d0de9-a724-44be-82be-a4c4094c60e3.png)
+
+<img src="https://user-images.githubusercontent.com/41771983/162376003-e76ae48c-e80e-4817-9217-3e56c31388f7.png"  width="363" height="378">
+
